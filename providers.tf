@@ -13,9 +13,9 @@ terraform {
     access_key                  = "AKIAWW5LNZWYAJKI4MWK"
     secret_key                  = "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"
     profile                     = "default"
-    bucket                      = "backend-bucket-sigma"
-    key                         = "backend-bucket-sigma/terraform.tfstate"
-    region                      = "eu-west-1"
+    bucket                      = "backend-zkabvol"
+    key                         = "backend-zkabvol/terraform.tfstate"
+    region                      = "eu-west-2"
     skip_metadata_api_check     = true
     encrypt                     = true
     role_arn                    = "arn:aws:iam::461531631024:role/apiuser"
